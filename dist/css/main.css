@@ -1,0 +1,123 @@
+body {
+  font-family: Muli;
+  font-size: 18px;
+  color: #4a4a4a;
+  background: #f5f6fa;
+  line-height: 24px; }
+  @media (max-width: 576px) {
+    body {
+      background: #ffffff; } }
+
+h1, .h1 {
+  font-size: 28px;
+  line-height: 36x; }
+
+h3, .h3 {
+  font-size: 21px;
+  line-height: 36x;
+  color: #3e3e3c; }
+
+p {
+  padding: 10px 0; }
+
+.hide {
+  display: none; }
+
+.btn:hover {
+  color: #ffffff; }
+
+.btn.hollow {
+  background: none;
+  color: #4a4a4a;
+  border: 1px solid #4a4a4a; }
+
+.btn-default {
+  color: #ffffff;
+  background-color: #4a4a4a;
+  font-size: 13px;
+  padding: 4px 25px; }
+
+.form-group {
+  overflow: hidden; }
+  .form-group .radio label {
+    display: inline-block;
+    border-radius: 4px;
+    background: #ffffff;
+    padding: 4px 12px;
+    float: left;
+    margin-right: 10px;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.5); }
+  .form-group .radio input[type="radio"] {
+    display: none; }
+
+.rate-group {
+  position: relative;
+  padding-bottom: 30px; }
+  .rate-group:after {
+    content: "Highly likey";
+    display: block;
+    width: 46px;
+    position: absolute;
+    right: 21px;
+    line-height: 13px;
+    bottom: 0;
+    font-size: 12px;
+    color: #706e6b; }
+  .rate-group:before {
+    content: "Highly unlikey";
+    display: block;
+    width: 46px;
+    position: absolute;
+    left: 21px;
+    line-height: 13px;
+    bottom: 0;
+    font-size: 12px;
+    color: #706e6b; }
+
+.main-nav {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 10px; }
+  .main-nav li {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    list-style: none; }
+
+.content-wrap {
+  margin: 100px auto 0;
+  background: #ffffff;
+  max-width: 620px;
+  box-shadow: 0 22px 29px 0 #a8b7c7;
+  vertical-align: middle;
+  padding: 39px; }
+  @media (max-width: 576px) {
+    .content-wrap {
+      box-shadow: none; } }
+  .content-wrap .logo {
+    max-width: 261px;
+    margin: 0 auto 40px;
+    display: block; }
+    .content-wrap .logo img {
+      margin: auto;
+      width: 100%; }
+  .content-wrap .btn {
+    margin: 20px auto 20px; }
+
+.footer {
+  position: absolute;
+  background: #ffffff;
+  padding: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+  @media (max-width: 576px) {
+    .footer {
+      border-top: 2px solid #d7d7d7; } }
+
+.Powered-by-Omoto_60x30 {
+  width: 81px;
+  height: 41px;
+  object-fit: contain; }
